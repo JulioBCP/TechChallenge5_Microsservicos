@@ -4,6 +4,26 @@
     <list default="true" id="f1fe64b9-99a5-4f09-803f-86bae9bc6c74" name="Changes" comment="Deletando teste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Controllers/EntregadorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Controllers/LogisticaController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/Entregador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/EntregadorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/Enum/StatusPedidoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/PedidoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/LogisticaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Repository/EntregadorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Service/EntregadorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Service/LogisticaService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/resources/relatorioPedidosPagos.jrxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mslogistica/src/test/java/com/br/logistica/LogisticaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/service/PedidoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Julio/Pos_Tech/TechChallenge4/TechChallenge4_TodosMs",
+    "last_opened_file_path": "C:/Julio/Pos_Tech/TechChallenge5_Microsservicos",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
