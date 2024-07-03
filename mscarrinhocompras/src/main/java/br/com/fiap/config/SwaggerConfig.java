@@ -14,8 +14,8 @@ public class SwaggerConfig {
     public List<GroupedOpenApi> apis() {
         return Arrays.asList(
                 GroupedOpenApi.builder()
-                        .group("pedido-api**")
-                        .pathsToMatch("/pedidos/**")
+                        .group("carrinho-api**")
+                        .pathsToMatch("/carrinhos/**")
                         .build()
         );
     }

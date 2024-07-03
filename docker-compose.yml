@@ -31,32 +31,32 @@ services:
     networks:
       - minha-rede
 
-  dbpedido:
-    container_name: dbpedido
+  dbcarrinhocompras:
+    container_name: dbcarrinhocompras
     image: mysql:5.7
     ports:
       - '3308:3306'
     environment:
       MYSQL_ROOT_PASSWORD: 123456
-      MYSQL_DATABASE: pedidos
+      MYSQL_DATABASE: carrinhocompras
     volumes:
-      - db_pedido:/var/lib/mysql
+      - db_carrinhocompras:/var/lib/mysql
     networks:
       - minha-rede
 
-  mspedidos:
-    container_name: mspedidos
+  mscarrinhocompras:
+    container_name: mscarrinhocompras
     build:
-      context: /mspedido
+      context: /mscarrinhocompras
       dockerfile: Dockerfile
     ports:
       - '8083:8083'
     environment:
-      SPRING_DATASOURCE_URL: jdbc:mysql://dbpedido:3306/pedidos?useSSL=false&serverTimezone=UTC
+      SPRING_DATASOURCE_URL: jdbc:mysql://dbcarrinhocompras:3306/carrinhocompras?useSSL=false&serverTimezone=UTC
       SPRING_DATASOURCE_USERNAME: root
       SPRING_DATASOURCE_PASSWORD: 123456
     depends_on:
-      - dbpedido
+      - dbcarrinhocompras
     networks:
       - minha-rede
 
@@ -105,8 +105,8 @@ services:
       - msprodutos
       - dbcliente
       - msclientes
-      - dbpedido
-      - mspedidos
+      - dbcarrinhocompras
+      - mscarrinhocompras
     networks:
       - minha-rede
 
@@ -117,4 +117,4 @@ networks:
 volumes:
   db_client:
   db_produto:
-  db_pedido:
+  db_carrinhocompras:

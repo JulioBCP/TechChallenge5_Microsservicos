@@ -12,7 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Pedido {
+public class CarrinhoCompras {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -24,17 +24,17 @@ public class Pedido {
     private String cpfCliente;
 
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    @JoinColumn(name = "pedido_id")
-    private List<ItemPedido> itensPedido;
+    @JoinColumn(name = "carrinhocompras_id")
+    private List<ItemCarrinho> ItensCarrinho;
 
     private double valorTotal;
 
     @Enumerated(EnumType.STRING)
     private StatusPedidoEnum status;
 
-    @Column(name = "entregador_id")
-    private Integer entregadorId;
+//    @Column(name = "entregador_id")
+//    private Integer entregadorId;
 
-    @Column(name = "pedido_cep")
+    @Column(name = "cep_entrega")
     private String cep;
 }

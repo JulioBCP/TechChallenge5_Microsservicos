@@ -1,8 +1,8 @@
 package br.com.fiap.model.helper;
 
 import br.com.fiap.model.Enum.StatusPedidoEnum;
-import br.com.fiap.model.ItemPedido;
-import br.com.fiap.model.Pedido;
+import br.com.fiap.model.ItemCarrinho;
+import br.com.fiap.model.CarrinhoCompras;
 import br.com.fiap.model.dtos.ProdutoDTO;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -10,15 +10,15 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PedidoHelper {
+public class CarrinhoComprasHelper {
 
-    public static Pedido gerarPedido() {
-        List<ItemPedido> listaItens = new ArrayList<>();
-        ItemPedido itemPedido = new ItemPedido(1, 1, 2);
-        listaItens.add(itemPedido);
+    public static CarrinhoCompras gerarCarrinhoCompras() {
+        List<ItemCarrinho> listaItens = new ArrayList<>();
+        ItemCarrinho itemCarrinho = new ItemCarrinho(1, 1, 2);
+        listaItens.add(itemCarrinho);
 
-        return new Pedido(1, "Julio Cesar","49988822212", listaItens,
-                359.99, StatusPedidoEnum.PEDIDO_PAGO, 1,"08554040");
+        return new CarrinhoCompras(1, "Julio Cesar","49988822212", listaItens,
+                359.99, StatusPedidoEnum.PEDIDO_PAGO,"08554040");
     }
 
     public static String asJsonString(final Object object) throws JsonProcessingException {

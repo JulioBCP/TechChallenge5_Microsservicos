@@ -4,26 +4,26 @@
     <list default="true" id="f1fe64b9-99a5-4f09-803f-86bae9bc6c74" name="Changes" comment="Deletando teste">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Controllers/EntregadorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Controllers/LogisticaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/Entregador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/EntregadorDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/Enum/StatusPedidoEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Entity/PedidoDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/LogisticaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Repository/EntregadorRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Service/EntregadorService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/java/com/br/logistica/Service/LogisticaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/main/resources/relatorioPedidosPagos.jrxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mslogistica/src/test/java/com/br/logistica/LogisticaApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/service/PedidoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msbatch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/msbatch/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/mvnw.cmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/MspedidoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/MsCarrinhoComprasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/controller/PedidoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/controller/CarrinhoComprasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/model/Enum/StatusPedidoEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/model/Enum/StatusPedidoEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/model/ItemPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/model/ItemCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/model/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/model/CarrinhoCompras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/model/dtos/ProdutoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/model/dtos/ProdutoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/repository/PedidoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/repository/CarrinhoComprasRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/java/br/com/fiap/service/PedidoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/java/br/com/fiap/service/CarrinhoComprasService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/test/java/br/com/fiap/MspedidoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mspedido/src/test/java/br/com/fiap/model/helper/PedidoHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mscarrinhocompras/src/test/java/br/com/fiap/model/helper/CarrinhoComprasHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

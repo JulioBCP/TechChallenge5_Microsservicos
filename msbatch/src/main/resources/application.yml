@@ -1,5 +1,5 @@
 data:
-  path: 'C:\FIAP\pedidos\msbatch\src\main\resources\'
+  path: 'C:\FIAP\carrinhos\msbatch\src\main\resources\'
 server:
   port: 8089
 spring:
